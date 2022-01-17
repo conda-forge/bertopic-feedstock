@@ -9,6 +9,27 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bertopic-feedst
 
 Summary: BERTopic performs topic Modeling with state-of-the-art transformer models.
 
+Development: https://github.com/MaartenGr/BERTopic
+
+Documentation: https://maartengr.github.io/BERTopic/
+
+BERTopic is a topic modeling technique that leverages 🤗 transformers
+and c-TF-IDF to create dense clusters allowing for easily interpretable
+topics whilst keeping important words in the topic descriptions.
+
+BERTopic supports
+[**guided**](https://maartengr.github.io/BERTopic/getting_started/guided/guided.html),
+(semi-) [**supervised**](https://maartengr.github.io/BERTopic/getting_started/supervised/supervised.html),
+and [**dynamic**](https://maartengr.github.io/BERTopic/getting_started/topicsovertime/topicsovertime.html)
+topic modeling. It even supports visualizations similar to LDAvis!
+
+Corresponding medium posts can be found
+[here](https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6?source=friends_link&sk=0b5a470c006d1842ad4c8a3057063a99)
+and [here](https://towardsdatascience.com/interactive-topic-modeling-with-bertopic-1ea55e7d73d8?sk=03c2168e9e74b6bda2a1f3ed953427e4).
+
+PyPI: [https://pypi.org/project/bertopic/](https://pypi.org/project/bertopic/)
+
+
 Current build status
 ====================
 
@@ -118,4 +139,5 @@ Feedstock Maintainers
 
 * [@MaartenGr](https://github.com/MaartenGr/)
 * [@mimshiran](https://github.com/mimshiran/)
+* [@sugatoray](https://github.com/sugatoray/)
 
