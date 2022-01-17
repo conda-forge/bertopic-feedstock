@@ -31,6 +31,7 @@ requirements:
     - scikit-learn >=0.22.2.post1
     - sentence-transformers >=0.4.1
     - tqdm >=4.41.1
+    # hdbscan requires cython
     - cython
 
 test:
@@ -46,8 +47,33 @@ about:
   summary: BERTopic performs topic Modeling with state-of-the-art transformer models.
   license: MIT
   license_file: LICENSE
+  # TODO: Remove license file from recipe-dir once bertopic 
+  #       includes it in the source on PyPI.
+  # Track issue:
+  # - https://github.com/MaartenGr/BERTopic/issues/401
+  license_file: LICENSE
+  description: |
+    BERTopic is a topic modeling technique that leverages 🤗 transformers 
+    and c-TF-IDF to create dense clusters allowing for easily interpretable 
+    topics whilst keeping important words in the topic descriptions.
+    
+    BERTopic supports 
+    [**guided**](https://maartengr.github.io/BERTopic/getting_started/guided/guided.html), 
+    (semi-) [**supervised**](https://maartengr.github.io/BERTopic/getting_started/supervised/supervised.html), 
+    and [**dynamic**](https://maartengr.github.io/BERTopic/getting_started/topicsovertime/topicsovertime.html) 
+    topic modeling. It even supports visualizations similar to LDAvis!
+    
+    Corresponding medium posts can be found 
+    [here](https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6?source=friends_link&sk=0b5a470c006d1842ad4c8a3057063a99) 
+    and [here](https://towardsdatascience.com/interactive-topic-modeling-with-bertopic-1ea55e7d73d8?sk=03c2168e9e74b6bda2a1f3ed953427e4).
+    
+    PyPI: [https://pypi.org/project/bertopic/](https://pypi.org/project/bertopic/)
+    
+  doc_url: https://maartengr.github.io/BERTopic/
+  dev_url: https://github.com/MaartenGr/BERTopic
 
 extra:
   recipe-maintainers:
     - mimshiran
     - MaartenGr
+    - sugatoray
