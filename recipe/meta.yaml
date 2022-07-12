@@ -11,7 +11,7 @@ source:
   sha256: e1e7e3a98b79ce8e0392c1a8ca9f05390d974800c162a27fd466358fc84b7807
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -32,6 +32,7 @@ requirements:
     - sentence-transformers >=0.4.1
     - tqdm >=4.41.1
     - cython
+    - pyarrow >=6.0.0
 
 test:
   imports:
