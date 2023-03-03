@@ -1,5 +1,5 @@
 {% set name = "bertopic" %}
-{% set version = "0.14.0" %}
+{% set version = "0.14.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bertopic-{{ version }}.tar.gz
-  sha256: bc5e68d21a9882cb3d2f7adac231e2d16431e6fa1e927b0efed33a4648c2b988
+  sha256: 2aed0bae3d171287e3d522460a2c80bfa9f26fafa6f2eadebd1d458f42ac3461
 
 build:
   number: 0
