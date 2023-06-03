@@ -1,11 +1,11 @@
-About bertopic
-==============
+About bertopic-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bertopic-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/MaartenGr/BERTopic
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bertopic-feedstock/blob/main/LICENSE.txt)
 
 Summary: BERTopic performs topic Modeling with state-of-the-art transformer models.
 
