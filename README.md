@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@MaartenGr](https://github.com/MaartenGr/)
 * [@mimshiran](https://github.com/mimshiran/)
+* [@thewchan](https://github.com/thewchan/)
 
