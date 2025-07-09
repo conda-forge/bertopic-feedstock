@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: bertopic
-  version: 0.17.0
+  version: "0.17.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/bertopic-${{ version }}.tar.gz
-  sha256: defcbb840ab5ccca0602307a566ae319cfff061fa5f98ad63b081b78b555626c
+  sha256: 3f876d2eadf2037df79f059b734935d7ed2eb6f530bcc6c7a19e1a8f5d2cbaba
 
 build:
   number: 0
@@ -32,6 +32,7 @@ requirements:
     - sentence-transformers >=0.4.1
     - tqdm >=4.41.1
     - umap-learn >=0.5.0
+    - llvmlite >0.36.0
 
 tests:
   - python:
