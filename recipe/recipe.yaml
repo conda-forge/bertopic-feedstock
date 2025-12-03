@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: bertopic
-  version: "0.17.3"
+  version: "0.17.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/bertopic-${{ version }}.tar.gz
-  sha256: 3f876d2eadf2037df79f059b734935d7ed2eb6f530bcc6c7a19e1a8f5d2cbaba
+  sha256: f92aa560cdf2bcbf9e22c8ee83dd3bfb225b8dc29381dec7327cc0b21bd852ad
 
 build:
   number: 0
